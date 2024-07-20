@@ -187,13 +187,13 @@ function handleVoiceCommand(command) {
   }
     else if (command.toLowerCase().includes('describe element')){
     window.VICCI.actions.describe_element();
-    }
-      else if (command.toLowerCase().includes('navigate to google.com')){
+  }
+    else if (command.toLowerCase().includes('navigate to google.com')){
     window.VICCI.actions.navigate();
-    }
-      else if (command.toLowerCase().includes('scroll in a specified direction')){
+  }
+    else if (command.toLowerCase().includes('scroll in a specified direction')){
     window.VICCI.actions.scroll_page();
-    } 
+  } 
 
   
   
