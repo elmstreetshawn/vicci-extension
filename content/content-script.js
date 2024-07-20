@@ -194,7 +194,7 @@ function handleVoiceCommand(command) {
     else if (command.toLowerCase().includes('scroll in a specified direction')){
     window.VICCI.actions.scroll_page();
   } 
-
+}
   
   
 
