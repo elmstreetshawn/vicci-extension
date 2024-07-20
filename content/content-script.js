@@ -182,8 +182,21 @@ function handleVoiceCommand(command) {
   } else if (command.toLowerCase().includes('describe page')) {
     window.VICCI.actions.describePage();
   }
-  // Add more voice command handlers as needed
-}
+    else if (command.toLowerCase().includes('click element')) {
+    window.VICCI.actions.click_element();
+  }
+    else if (command.toLowerCase().includes('describe element')){
+    window.VICCI.actions.describe_element();
+    }
+      else if (command.toLowerCase().includes('navigate to google.com')){
+    window.VICCI.actions.navigate();
+    }
+      else if (command.toLowerCase().includes('scroll in a specified direction')){
+    window.VICCI.actions.scroll_page();
+    } 
+
+  
+  
 
 function describePage() {
   console.log('VICCI Content Script: Describing page');
